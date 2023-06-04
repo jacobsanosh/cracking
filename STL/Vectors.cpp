@@ -73,4 +73,9 @@ int main()
      for(auto i=v1.begin();i<v1.end();i++)
         cout<<*i<<" ";
     cout<<"\nlast elements\t"<<*(v1.end()-1);
+    cout<<endl<<endl<<"blah"<<endl;
+    for(auto i:v1)
+        cout<<i<<" ";
+    v1.insert(v1.begin()+3,9);
+    cout<<"\nelemets a 3 th position is"<<v1[3]<<endl;
 }
