@@ -200,3 +200,21 @@ unique():
     it will remove  all the consecutive duplicate from the list
 reverse():
     it will reverse  the elemnts
+
+QUEUE
+push():
+    used to push elements into end of the list
+pop():
+    used to remove last element form the list
+empty():
+    used to check is empty
+emplace():
+    add an element to the end of the list
+front():
+    return first element of the list
+back():
+    used to access last element
+swap():
+    used to swap two queue
+size():
+    return size of the queue
