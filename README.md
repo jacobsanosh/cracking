@@ -150,3 +150,11 @@ empty():
 fill: 
     used to set an value into the whole array
     arr1.fill(0//wet alll elemts into zero)
+
+
+FORWARD_LIST
+
+the disadvantage of forward list is that the there is no reverse iterator
+and cannot access randomly
+assign():
+    its an fucntioin that are used to assign value for example u want insert 5 1
