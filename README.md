@@ -68,3 +68,85 @@ emplace():insert an element at specified position
     list<int>::iterator l1iter=l1.begin();
     advance(l1iter,3);
     l1.emplace(l1iter,100);
+
+
+DEQUEUE
+
+they are similar to vector but contiguous storage allocation are not guaranted
+they have same fuction as vector but inaddition to that they also contain push and pop
+they have similar function to vector
+insert():insert an element 
+    it can be done on many ways
+        deq.insert(deq.begin(),0);//for insertig an single zero
+        deq.insert(deq.begin(),2,0);//for inserting two zeros
+         //inserting an range of value from an vector
+         vector<int> v1{1,2,3};
+        deq.insert(deq.begin(),v1.begin(),v1.end());
+rbegin():
+    return an iterator to the end of the dequeue
+rend():
+    return an iterator to the begin of the dequeue
+cbegin():
+    returns an constant iterator to the beginning of the dequeue
+cend():
+    returns an constant iterator to the end of the dequeue
+max_size:
+    returns max size that allowed for that dequeue
+assign():
+    they are used to assing some dummy values
+resize():
+    it will resize the dequeue as per the size specified
+push_front():
+    insert element into the beginning of the dequeue
+push_back():
+    push an element into the end of the dequeu
+pop_front():
+    pop out the first element from the dequeue
+pop_back():
+    pop_out last element fromthe dequeue
+front():
+    returns first element from the dequeue
+back():
+    returns last elements from  the dequeue
+clear():
+    remove all the elements from dequeue and return epty queue
+erase():
+    they are used to remove an element it will take iterator as input
+empty():
+    they are used to check whether the dequeue is empty
+size():
+    it will return the no of elements in the list
+emplace_front():
+    they are used to insert an elements into the front of the dequeue
+emplace_back():
+    they are used to insert an element into the end of the dequeue
+    
+
+
+ARRAY
+for creating an array we have to specify the size of the array
+    array<int,6> arr{1,2,3,4,5,6};
+
+fucntion are:
+at():
+    used to get element at specified location
+get():
+    for get we have tp add tuple headr
+    get<0>(arr1)//return element in 0th index
+[]: arr[0];
+front():
+    it will return the first element in the array
+back():
+    it will return last elementn in the array
+size():
+    return the actual size of the array
+max_size:
+    return the size of the array specified in the delcaration
+swap():
+    used to swap two array
+    arr.swap(arr2)
+empty():
+    rerutrn 1 when array is empty otherwise 0
+fill: 
+    used to set an value into the whole array
+    arr1.fill(0//wet alll elemts into zero)
