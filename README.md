@@ -158,3 +158,45 @@ the disadvantage of forward list is that the there is no reverse iterator
 and cannot access randomly
 assign():
     its an fucntioin that are used to assign value for example u want insert 5 1
+ push_front():
+    used to insert element into the front
+emplace_fron():
+    used to insert element into fornt
+pop_front:
+    used to remove element from front
+insert_after():
+    it will insert element after certain itereator
+emplace_after():
+    used to insert element after certain iterator
+erase_after:
+    used to erase elements after certain iterator
+remove():
+    used to remove particular element from the forward_list
+remove_if():
+    this will remove element based on certain condition
+clear():
+    clear all the elements in the list
+splice_after():
+    used to insert element after certain position
+front():
+    it will return the first element
+begin():
+    it will return an iterator pointer to the beginnig
+end():
+    it will return an pointer to the end of the list
+cbegin:
+    return an constant begin pointer
+cend():
+    return an constant end pointer
+before_begin():
+    return an iterator that points to the iterator before the first element
+cbefore_begin():
+    return an constant iterator to the iterator before first element
+max_size():
+    return max size
+resize():
+    it will resize the list
+unique():
+    it will remove  all the consecutive duplicate from the list
+reverse():
+    it will reverse  the elemnts
