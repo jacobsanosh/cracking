@@ -292,3 +292,72 @@ swap():
 
 NULTISET
 the difference between multi and set is that they can sotre duplicate value also
+begin():
+    it will return an iterator pointer to the beginnig
+end():
+    it will return an pointer to the end of the list
+cbegin:
+    return an constant begin pointer
+cend():
+    return an constant end pointer
+before_begin():
+    return an iterator that points to the iterator before the first element
+cbefore_begin():
+    return an constant iterator to the iterator before first element
+max_size():
+    return max size
+empty():
+    check whether empty or not
+insert(g):
+    adds an new element into the list
+insert(itr,d)
+    add d to the position of itr
+erase(itr1,itr2):
+    erase from itr1 to itr2
+erase(d)
+    erase an constan value
+clear():
+    clear all the element form the set
+key_comp:
+    set<int>num2{1,2,3,4};
+    set<int>::key_compare comp=num2.key_comp();
+    auto l=*num2.end();
+    cout<<"\nelement using compare function "<<l<<endl;
+    set<int>::iterator itr3=num2.begin();
+    while(comp(*(itr3),l)){
+        cout<<*itr3<<" ";
+        itr3++;
+    }
+    
+value_compare:
+        
+    set<int>::value_compare vcomp=num2.value_comp();
+    auto v1=*num2.end();
+    cout<<"\nusing value comparator "<<v1<<endl;
+    set<int>::iterator itr4=num2.begin();
+    cout<<"\nnums "<<*itr4<<endl;
+     do {
+       cout << *itr4 << " ";
+    } while (comp(*(++itr4), v1));
+find():
+    return the iterator where the element is found
+count():
+    return 1 when its found otherwise 0
+lower_bound():
+    return the lowest value in this case itself
+upper_bound():
+    return the upper value in this case higher value
+equal_range():
+    it will return the lower bound and upperbound
+    we can access both using .first and .second
+emplace():
+    used to insert an new item
+emplace_hint:
+    returns an iterator where the insertion is done
+swap(): 
+    in this iw ill swap two sets
+
+MAP
+    in this it will store data in the form of key value pair
+    it does not allow duplication of elements
+    
