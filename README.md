@@ -290,7 +290,8 @@ swap():
     in this iw ill swap two sets
 
 
-NULTISET
+MULTISET
+
 the difference between multi and set is that they can sotre duplicate value also
 begin():
     it will return an iterator pointer to the beginnig
@@ -359,5 +360,6 @@ swap():
 
 MAP
     in this it will store data in the form of key value pair
-    it does not allow duplication of elements
+    it does not allow duplication of elements.
+
     
